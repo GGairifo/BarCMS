@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3E3434;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Inter';
+    border-bottom-left-radius: 30px; /* Round only bottom left corner */
+    border-bottom-right-radius: 30px; /* Round only bottom right corner */
+    padding: 10px; /* Increase padding for more thickness */
+
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+
+
+    width: 120px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratin logo and title */
+    margin-left: 30px; /* Spacing between logo and title */
+}
+
+.logo-title h1 {
+    
+    font-weight: 700; /* Bolder font weight */
+    margin: 0; /* Remove default margin */
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.lang-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.lang-menu a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.user-icon {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"], .search-bar select, .search-bar button {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+
+/* cards
+/* Add some basic styles for the cards */
+/* Add some basic styles for the cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: 50%;
+    width: auto;
+    margin: 10px 0;
+}
+.card h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+.card p {
+    margin: 0.5em 0;
+    margin-bottom: 10px;
+}
+
+.search-bar select,
+.search-bar input[type="text"] {
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border-radius: 10px; /* Add rounded corners */
+    border: 1px solid #ccc; /* Add border */
+    width: 250px; /* Adjust width as needed */
+}
+
+/* CSS */
+/* Adjust padding and size of the button */
+.search-bar button {
+    padding: 10px; /* Adjust padding as needed */
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    border: 1px solid white; /* White border */
+    border-radius: 50%; /* Make it round */
+    background-color: transparent; /* Transparent background */
+    color: #ccc;
+}
+
+/* Add hover effect */
+.search-bar button:hover {
+    background-color: #e0e0e0; /* Add a background color on hover */
+    color: #3E3434;
+}
+/* CSS */
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+/* CSS */
+.card img {
+    width: 100%; /* Make the image width 100% of its container */
+    height: 70%; /* Make the image height 100% of its container */
+    display: block; /* Ensure proper display */
+    border-radius: 8px; /* Add rounded corners */
+}
+
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #3E3434;
+}
+
+.card a:hover {
+    color: #3E3434;
+}
+
+/* CSS */
+h3 {
+    margin: 20px;
+    padding: 20px;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-top: 0; /* Remove default margin */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    margin-top: 20px; /* Add some bottom margin for spacing */
+    color: #333; /* Text color */
+}
+.footer {
+    background-color: #3E3434;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Reduce padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px; /* Reduce font size */
+}
